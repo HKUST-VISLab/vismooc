@@ -1,0 +1,34 @@
+version: '2'
+services:
+  web:
+    image: hkustvislab/vismooc-web-server:v0.5.0
+    ports:
+      - "0.0.0.0:9999:9999"
+    volumes:
+      - ./config:/config
+    depends_on:
+      - db
+      - redis
+    logging:
+      driver: json-file
+      options:
+        max-size: "1g"
+        max-file: "10"
+  data:
+    image: hkustvislab/vismooc-data-server:v0.4.0
+    volumes:
+        - ./vismooc-raw-data:/dist/vismooc-raw-data
+        - ./config:/config
+    depends_on:
+        - db
+    logging:
+      driver: json-file
+      options:
+        max-size: "1g"
+        max-file: "10"
+  redis:
+    image: redis
+  db:
+    image: mongo:3.4
+    volumes:
+        - ./database/data:/data

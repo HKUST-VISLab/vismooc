@@ -1,0 +1,43 @@
+{
+    "mongo": {
+        "host": "localhost",
+        "name": "test-vismooc-db",
+        "port": 27017
+    },
+    "data_server": {
+        "third_party_keys": {
+            "HKMOOC_key":"", // HKMOOC_key for fetching data
+            "Youtube_key": "" // youtube_key for fetch the video duration
+        },
+        "data_sources": {
+            "data_source_host": "https://dataapi2.hkmooc.hk",   // currently no need to change
+            "access_tokens_url": "/resources/access_tokens",    // currently no need to change
+            "clickstreams_url": "/resources/clickstreams",      // currently no need to change
+            "mongoDB_url": "/resources/dbsnapshots_mongodb",    // currently no need to change
+            "SQLDB_url": "/resources/dbsnapshots_mysqldb"       // currently no need to change
+        },
+        "data_filenames": {
+            "data_dir": "vismooc-test-data",                    // currently no need to change
+            "mongodb_file": "dbsnapshots_mongodb",              // currently no need to change
+            "sqldb_file": "dbsnapshots_mysqldb",                // currently no need to change
+            "meta_db_record": "meta_db_record",                 // currently no need to change
+            "active_versions": "mongodb/edxapp/modulestore.active_versions.json",   // currently no need to change
+            "structures": "mongodb/edxapp/modulestore.structures.json"  // currently no need to change
+        }
+    },
+    "webServer": {
+        "port" : "9999", // the port of vismooc
+        "redis": {
+            "port": 6379,
+            "host": "localhost"
+        },
+        "oauth2": {
+            "authorizationURL": "https://learn2.hkmooc.hk/oauth2/authorize/", // authorization URL
+            "tokenURL": "https://learn2.hkmooc.hk/oauth2/access_token/", // token URL
+            "callbackURL": "http://localhost:9999/oauth2/", // callback URL, currently it must in this form "${hostname:port}/oauth2/"
+            "clientID": "", // Client ID
+            "clientSecret": "", // OAuth2 client secret
+            "scope": ["openid", "profile", "email", "course_staff", "course_instructor", "permissions"] // currently no need to change
+        }
+    }
+}
