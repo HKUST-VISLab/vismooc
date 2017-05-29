@@ -11,7 +11,7 @@ VisMOOC is the first visual analytic system developed by [VisLab](vis.cse.ust.hk
     <th>&nbsp;</th>
     <th>
       <p>Data Server</p>
-      <a href="https://github.com/HKUST-VISLab/vismooc-data-server"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-data-server" height="20"></a><br>
+      <a href="https://github.com/HKUST-VISLab/vismooc-data-server"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-data-server" height="20"></a>
       <a href="https://github.com/HKUST-VISLab"><img src="https://img.shields.io/github/followers/HKUST-VISLab.svg?style=social&label=Follow" height="20"></a>
     </th>
     <th>
