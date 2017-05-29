@@ -1,6 +1,6 @@
-![logo](https://cloud.githubusercontent.com/assets/3315274/26538657/bdddf350-447a-11e7-888c-3cb7663dcbda.png)
+![logo](https://cloud.githubusercontent.com/assets/3315274/26538833/b38b6d96-447b-11e7-84c8-b5bd05d8fa4c.png)
 
-# VicMOOC@v0.5
+# 
 
 VisMOOC is the first visual analytic system developed by [VisLab](vis.cse.ust.hk), [HKUST](http://www.ust.hk/) for domain experts to analyze large-scale data of MOOCs. It provides course instructors and education analysts intuitive, interative and comprehensive analysis by integrating course videos, data visualization, and statistical analysis into one system. Multi-exploration techniques are offered for analysis at different levels. The data include clickstream data when students interact with course videos, grading data for assignments and exams, and forum data.
 
