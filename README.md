@@ -7,34 +7,22 @@ VisMOOC is the first visual analytic system developed by [VisLab](vis.cse.ust.hk
 ## VisMOOC Projects
 
 <table width="100%">
-  <tr>
-    <th>&nbsp;</th>
-    <th>
-      <p>React Starter Kit</p>
-      <a href="https://github.com/kriasoft/react-starter-kit"><img src="https://img.shields.io/github/stars/kriasoft/react-starter-kit.svg?style=social&label=~react-starter-kit" height="20"></a>
-    </th>
-    <th>
-      <p>React Static Boilerplate</p>
-      <a href="https://github.com/kriasoft/react-static-boilerplate"><img src="https://img.shields.io/github/stars/kriasoft/react-static-boilerplate.svg?style=social&label=~react-static-boilerplate" height="20"></a>
-    </th>
-    <th>
-      <p>ASP.NET Core Starter Kit</p>
-      <a href="https://github.com/kriasoft/aspnet-starter-kit"><img src="https://img.shields.io/github/stars/kriasoft/aspnet-starter-kit.svg?style=social&label=~aspnet-starter-kit" height="20"></a>
-    </th>
-  <tr>
    <tr>
     <th>&nbsp;</th>
     <th>
       <p>Data Server</p>
       <a href="https://github.com/HKUST-VISLab/vismooc-data-server"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-data-server" height="20"></a>
+      <a href="https://twitter.com/ReactStarter"><img src="https://img.shields.io/twitter/follow/ReactStarter.svg?style=social&label=@ReactStarter" height="20"></a>
     </th>
     <th>
       <p>Web Server</p>
       <a href="https://github.com/HKUST-VISLab/vismooc-web-server"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-web-server" height="20"></a>
+      <a href="https://twitter.com/ReactStarter"><img src="https://img.shields.io/twitter/follow/ReactStarter.svg?style=social&label=@ReactStarter" height="20"></a>
     </th>
     <th>
       <p>Frontend</p>
       <a href="https://github.com/HKUST-VISLab/vismooc-frontend"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-frontend" height="20"></a>
+      <a href="https://twitter.com/ReactStarter"><img src="https://img.shields.io/twitter/follow/ReactStarter.svg?style=social&label=@ReactStarter" height="20"></a>
     </th>
   <tr>
    <tr>
