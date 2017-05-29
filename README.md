@@ -71,7 +71,7 @@ The VisMooc system consists of three parts, namely, ***, ***, ***. Below are...
 </table>
 
 ## VisMOOC Modules
-
+The VisMocc system allows users to analyze the Mooc data from multiperspectives.
 
 <table width="100%">
 <thead width="100%">
