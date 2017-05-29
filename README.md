@@ -12,17 +12,17 @@ VisMOOC is the first visual analytic system developed by [VisLab](vis.cse.ust.hk
     <th>
       <p>Data Server</p>
       <a href="https://github.com/HKUST-VISLab/vismooc-data-server"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-data-server" height="20"></a>
-      <a href="https://twitter.com/ReactStarter"><img src="https://img.shields.io/twitter/follow/ReactStarter.svg?style=social&label=@ReactStarter" height="20"></a>
+      <a href="https://github.com/HKUST-VISLab"><img src="https://img.shields.io/github/followers/HKUST-VISLab.svg?style=social&label=Follow" height="20"></a>
     </th>
     <th>
       <p>Web Server</p>
       <a href="https://github.com/HKUST-VISLab/vismooc-web-server"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-web-server" height="20"></a>
-      <a href="https://twitter.com/ReactStarter"><img src="https://img.shields.io/twitter/follow/ReactStarter.svg?style=social&label=@ReactStarter" height="20"></a>
+      <a href="https://github.com/HKUST-VISLab"><img src="https://img.shields.io/github/followers/HKUST-VISLab.svg?style=social&label=Follow" height="20"></a>
     </th>
     <th>
       <p>Frontend</p>
       <a href="https://github.com/HKUST-VISLab/vismooc-frontend"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-frontend" height="20"></a>
-      <a href="https://twitter.com/ReactStarter"><img src="https://img.shields.io/twitter/follow/ReactStarter.svg?style=social&label=@ReactStarter" height="20"></a>
+      <a href="https://github.com/HKUST-VISLab"><img src="https://img.shields.io/github/followers/HKUST-VISLab.svg?style=social&label=Follow" height="20"></a>
     </th>
   <tr>
    <tr>
