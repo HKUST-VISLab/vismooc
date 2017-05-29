@@ -65,6 +65,101 @@ VisMOOC is the first visual analytic system developed by [VisLab](vis.cse.ust.hk
 </table>
 
 
+<table width="100%">
+  <tr>
+    <th>&nbsp;</th>
+    <th>
+      <p>React Starter Kit</p>
+      <a href="https://github.com/kriasoft/react-starter-kit"><img src="https://img.shields.io/github/stars/kriasoft/react-starter-kit.svg?style=social&label=~react-starter-kit" height="20"></a>
+      <a href="https://twitter.com/ReactStarter"><img src="https://img.shields.io/twitter/follow/ReactStarter.svg?style=social&label=@ReactStarter" height="20"></a>
+    </th>
+    <th>
+      <p>React Static Boilerplate</p>
+      <a href="https://github.com/kriasoft/react-static-boilerplate"><img src="https://img.shields.io/github/stars/kriasoft/react-static-boilerplate.svg?style=social&label=~react-static-boilerplate" height="20"></a>
+      <a href="https://twitter.com/ReactStatic"><img src="https://img.shields.io/twitter/follow/ReactStatic.svg?style=social&label=@ReactStatic" height="20"></a>
+    </th>
+    <th>
+      <p>ASP.NET Core Starter Kit</p>
+      <a href="https://github.com/kriasoft/aspnet-starter-kit"><img src="https://img.shields.io/github/stars/kriasoft/aspnet-starter-kit.svg?style=social&label=~aspnet-starter-kit" height="20"></a>
+      <a href="https://twitter.com/dotnetreact"><img src="https://img.shields.io/twitter/follow/dotnetreact.svg?style=social&label=@dotnetreact" height="20"></a>
+    </th>
+  <tr>
+  <tr>
+    <th align="right">App type</th>
+    <td align="center"><a href="http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/">Isomorphic</a> (universal)</td>
+    <td align="center"><a href="https://en.wikipedia.org/wiki/Single-page_application">Single-page application</a></td>
+    <td align="center"><a href="https://en.wikipedia.org/wiki/Single-page_application">Single-page application</a></td>
+  </tr>
+  <tr>
+    <th colspan="4">Frontend</th>
+  <tr>
+  <tr>
+    <th align="right">Language</th>
+    <td align="center">JavaScript (ES2015+, JSX)</td>
+    <td align="center">JavaScript (ES2015+, JSX)</td>
+    <td align="center">JavaScript (ES2015+, JSX)</td>
+  </tr>
+  <tr>
+    <th align="right">Libraries</th>
+    <td align="center">
+      <a href="https://github.com/facebook/react">React</a>,
+      <a href="https://github.com/ReactJSTraining/history">History</a>,
+      <a href="https://github.com/kriasoft/universal-router">Universal Router</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/facebook/react">React</a>,
+      <a href="https://github.com/ReactJSTraining/history">History</a>,
+      <a href="https://github.com/reactjs/redux">Redux</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/facebook/react">React</a>,
+      <a href="https://github.com/ReactJSTraining/history">History</a>,
+      <a href="https://github.com/reactjs/redux">Redux</a>
+    </td>
+  </tr>
+  <tr>
+    <th align="right">Routes</th>
+    <td align="center">Imperative (functional)</td>
+    <td align="center">Declarative</td>
+    <td align="center">Declarative, cross-stack</td>
+  </tr>
+  <tr>
+    <th colspan="4">Backend</th>
+  <tr>
+  <tr>
+    <th align="right">Language</th>
+    <td align="center">JavaScript (ES2015+, JSX)</td>
+    <td align="center">n/a</td>
+    <td align="center">C#, F#</td>
+  </tr>
+  <tr>
+    <th align="right">Libraries</th>
+    <td align="center">
+      <a href="https://nodejs.org">Node.js</a>,
+      <a href="http://expressjs.com/">Express</a>,
+      <a href="http://docs.sequelizejs.com/en/latest/">Sequelize</a>,<br>
+      <a href="https://github.com/graphql/graphql-js">GraphQL</a></td>
+    <td align="center">n/a</td>
+    <td align="center">
+      <a href="https://docs.asp.net/en/latest/">ASP.NET Core</a>,
+      <a href="https://ef.readthedocs.io/en/latest/">EF Core</a>,<br>
+      <a href="https://docs.asp.net/en/latest/security/authentication/identity.html">ASP.NET Identity</a>
+    </td>
+  </tr>
+  <tr>
+    <th align="right"><a href="https://www.quora.com/What-are-the-tradeoffs-of-client-side-rendering-vs-server-side-rendering">SSR</a></th>
+    <td align="center">Yes</td>
+    <td align="center">n/a</td>
+    <td align="center">n/a</td>
+  </tr>
+  <tr>
+    <th align="right">Data API</th>
+    <td align="center"><a href="http://graphql.org/">GraphQL</a></td>
+    <td align="center">n/a</td>
+    <td align="center"><a href="https://docs.asp.net/en/latest/tutorials/first-web-api.html">Web API</a></td>
+  </tr>
+</table>
+
 ## VisMOOC Modules
 
 Modules|Analytical Features | Publications 
