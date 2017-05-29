@@ -84,12 +84,22 @@ VisMOOC is the first visual analytic system developed by [VisLab](vis.cse.ust.hk
       <a href="https://twitter.com/dotnetreact"><img src="https://img.shields.io/twitter/follow/dotnetreact.svg?style=social&label=@dotnetreact" height="20"></a>
     </th>
   <tr>
+
+   <tr>
+    <th>&nbsp;</th>
+    <th>
+      <p>Data Server</p>
+      <a href="https://github.com/HKUST-VISLab/vismooc-data-server"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-data-server" height="20"></a>
+    </th>
+    <th>
+      <p>Web Server</p>
+      <a href="https://github.com/HKUST-VISLab/vismooc-web-server"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-web-server" height="20"></a>
+    </th>
+    <th>
+      <p>Frontend</p>
+      <a href="https://github.com/HKUST-VISLab/vismooc-frontend"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-frontend" height="20"></a>
+    </th>
   <tr>
-    <th align="right">App type</th>
-    <td align="center"><a href="http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/">Isomorphic</a> (universal)</td>
-    <td align="center"><a href="https://en.wikipedia.org/wiki/Single-page_application">Single-page application</a></td>
-    <td align="center"><a href="https://en.wikipedia.org/wiki/Single-page_application">Single-page application</a></td>
-  </tr>
    <tr>
     <th align="right">Language</th>
     <td align="center"><a href="https://www.python.org/" ><img src="https://img.shields.io/badge/python-3.5-blue.svg"></a></td>
