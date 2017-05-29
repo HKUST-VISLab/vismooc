@@ -1,11 +1,11 @@
 ![logo](https://cloud.githubusercontent.com/assets/3315274/26538833/b38b6d96-447b-11e7-84c8-b5bd05d8fa4c.png)
 
-# 
+#
 
 VisMOOC is the first visual analytic system developed by [VisLab](vis.cse.ust.hk), [HKUST](http://www.ust.hk/) for domain experts to analyze large-scale data of MOOCs. It provides course instructors and education analysts intuitive, interative and comprehensive analysis by integrating course videos, data visualization, and statistical analysis into one system. Multi-exploration techniques are offered for analysis at different levels. The data include clickstream data when students interact with course videos, grading data for assignments and exams, and forum data.
 
 ## VisMOOC Projects
-The VisMooc system consists of three parts, namely, ***, ***, ***. Below are...
+The VisMooc system consists of three parts, namely, `Data Server`, `Web Server`, and `Frontend`. The `Data Server` is responsible for data processing and analysis. We support to import data both from the raw data or from MOOCDB. The `Web Server` serves as the backend of our interactive visualization system. It achieves a high concurrency by utilizing state-of-the-art techniques such as Node.js and Koa with optimization. The `Frontend` part incorporates several visualization components that adopts a MMVM architecture with one-way data flow.
 
 <table width="100%">
 <tbody width="100%">
@@ -71,7 +71,7 @@ The VisMooc system consists of three parts, namely, ***, ***, ***. Below are...
 </table>
 
 ## VisMOOC Modules
-The VisMocc system allows users to analyze the Mooc data from multiperspectives.
+The VisMOOC system allows users to analyze the MOOC data from multiperspectives.
 
 <table width="100%">
 <thead width="100%">
@@ -88,7 +88,7 @@ The VisMocc system allows users to analyze the Mooc data from multiperspectives.
             <li>Course popularigy</li>
             <li>User demographics information</li>
             <li>Clickstream analysis</li>
-            <li>Temporal hotness analysis</li> 
+            <li>Temporal hotness analysis</li>
         </ul></td>
         <td>
             [1, 2, 3, 4]
