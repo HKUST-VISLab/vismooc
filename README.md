@@ -10,65 +10,6 @@ VisMOOC is the first visual analytic system developed by [VisLab](vis.cse.ust.hk
   <tr>
     <th>&nbsp;</th>
     <th>
-      <p>Data Server</p>
-      <a href="https://github.com/HKUST-VISLab/vismooc-data-server"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-data-server" height="20"></a>
-    </th>
-    <th>
-      <p>Web Server</p>
-      <a href="https://github.com/HKUST-VISLab/vismooc-web-server"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-web-server" height="20"></a>
-    </th>
-    <th>
-      <p>Frontend</p>
-      <a href="https://github.com/HKUST-VISLab/vismooc-frontend"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-frontend" height="20"></a>
-    </th>
-  <tr>
-  <tr>
-    <th align="right">Language</th>
-    <td align="center"><a href="https://www.python.org/" ><img src="https://img.shields.io/badge/python-3.5-blue.svg"></a></td>
-    <td align="center"><a href="https://www.typescriptlang.org/" ><img src="https://img.shields.io/badge/%3C%2F%3E-TypeScript-blue.svg"></a><a href="https://nodejs.org/en/" ><img src="https://img.shields.io/node/v/wechaty.svg?maxAge=604800"></a></td>
-    <td align="center"><a href="http://es6-features.org/" ><img src="https://img.shields.io/badge/ECMAScript-6-yellow.svg"></a></td>
-  </tr>
-  <tr>
-    <th align="right">Libraries</th>
-    <td align="center">
-      <a href="https://github.com/mher/pymongo">PyMongo</a>,
-      <a href="https://github.com/PyMySQL/PyMySQL">PyMySQL</a>,
-      <a href="http://www.nltk.org/">NLTK</a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/koajs/koa">Koa</a>,
-      <a href="http://mongoosejs.com/">Mongoose</a>,
-    </td>
-    <td align="center">
-      <a href="https://vuejs.org/">Vue.js</a>,
-      <a href="https://d3js.org/">D3.js</a>,
-    </td>
-  </tr>
-  <tr>
-    <th align="right">Status</th>
-    <td align="center">
-        <a href="https://travis-ci.com/HKUST-VISLab/vismooc-data-server"><img src="https://travis-ci.com/HKUST-VISLab/vismooc-data-server.svg?token=iCzC3448sGQmSeYdNFro&branch=master" /></a><br>
-        <a href="https://codeclimate.com/repos/592ab22319c972027a002465/coverage"><img src="https://codeclimate.com/repos/592ab22319c972027a002465/badges/4036d9d8942155cedb5d/coverage.svg" /></a>
-    </td>
-    <td align="center">
-        <a href="https://travis-ci.com/HKUST-VISLab/vismooc-web-server"><img src="https://travis-ci.com/HKUST-VISLab/vismooc-web-server.svg?token=iCzC3448sGQmSeYdNFro&branch=master" /> </a><br>
-        <a href="https://codeclimate.com/repos/592ab295839b1e02650008c6/coverage"><img src="https://codeclimate.com/repos/592ab295839b1e02650008c6/badges/72c646f31634a87f8623/coverage.svg" /></a><br>
-        <a href="https://www.bithound.io/github/chenzhutian/vismooc-web-server"><img src="https://www.bithound.io/projects/badges/d9bc67c0-4374-11e7-a311-7b68633f7cb1/score.svg" /></a><br>
-        <a href="https://www.bithound.io/github/chenzhutian/vismooc-web-server/master/dependencies/npm"><img src="https://www.bithound.io/projects/badges/d9bc67c0-4374-11e7-a311-7b68633f7cb1/dependencies.svg" /></a>
-    </td>
-    <td align="center">
-        <a href="https://travis-ci.com/HKUST-VISLab/vismooc-front-end"><img src="https://travis-ci.com/HKUST-VISLab/vismooc-front-end.svg?token=iCzC3448sGQmSeYdNFro&branch=master"/></a><br>
-        <a href="https://www.bithound.io/github/chenzhutian/vismooc-front-end"><img src="https://www.bithound.io/projects/badges/57872a00-4375-11e7-9c37-9b439aefd03b/score.svg"/></a><br>
-        <a href="https://www.bithound.io/github/chenzhutian/vismooc-front-end/master/dependencies/npm"><img src="https://www.bithound.io/projects/badges/57872a00-4375-11e7-9c37-9b439aefd03b/dependencies.svg" /></a>
-    </td>
-  </tr>
-</table>
-
-
-<table width="100%">
-  <tr>
-    <th>&nbsp;</th>
-    <th>
       <p>React Starter Kit</p>
       <a href="https://github.com/kriasoft/react-starter-kit"><img src="https://img.shields.io/github/stars/kriasoft/react-starter-kit.svg?style=social&label=~react-starter-kit" height="20"></a>
     </th>
