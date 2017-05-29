@@ -71,7 +71,7 @@ The VisMooc system consists of three parts, namely, `Data Server`, `Web Server`,
 </table>
 
 ## VisMOOC Modules
-The VisMOOC system allows users to analyze the MOOC data from multiperspectives.
+The VisMOOC system allows users to analyze the MOOC data from multi-perspectives. We provide a flexible architecture that can integrate different modules for analyzing various perspectives of MOOC data. The `Basic Module` provides an overview on course and video statistics such as user demographics information and video temporal hotness. It also enables to explore and analyze different types of users' clickstream data. The `Forum Module` focuses on the course forum data. Specifically, we support analyzing user's sentiment at different scales and exploring the users' social network based on their posts and replies. The `Prediction Module` helps predict whether a user would dropout in the middle of the course. These components are still in development and we plan to develop more visualization components to enable MOOC analysis from a wider perspective.
 
 <table width="100%">
 <thead width="100%">
@@ -85,7 +85,7 @@ The VisMOOC system allows users to analyze the MOOC data from multiperspectives.
     <tr>
         <th align="right">Basic</th>
         <td> <ul>
-            <li>Course popularigy</li>
+            <li>Course popularity</li>
             <li>User demographics information</li>
             <li>Clickstream analysis</li>
             <li>Temporal hotness analysis</li>
