@@ -1,7 +1,8 @@
 version: '2'
 services:
   web:
-    image: hkustvislab/vismooc-web-server:v0.5.0
+    build: ./web-server
+    image: vismooc-web-server:0.3.0
     ports:
       - "0.0.0.0:9999:9999"
     volumes:
@@ -15,9 +16,10 @@ services:
         max-size: "1g"
         max-file: "10"
   data:
-    image: hkustvislab/vismooc-data-server:v0.4.0
+    build: ./data-server
+    image: vismooc-data-server:0.3.5
     volumes:
-        - ./vismooc-raw-data:/dist/vismooc-raw-data
+        - ./data-server/dist:/dist
         - ./config:/config
     depends_on:
         - db

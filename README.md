@@ -131,7 +131,7 @@ The VisMooc system consists of three parts, namely, ***, ***, ***. Below are...
 7. Yuanzhe Chen, Qing Chen, Mingqian Zhao, Sebastien Boyer, Kalyan Veeramachaneni, Huamin Qu. "DropoutSeer: Visualizing Learning Patterns in Massive Open Online Courses for Dropout Reasoning and Prediction", In IEEE VAST 2016.
 
 
-## Requirement:
+## Requirement
 
 ### OS
 OS: Debian 8 (amd64)
