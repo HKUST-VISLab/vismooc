@@ -73,16 +73,16 @@ VisMOOC is the first visual analytic system developed by [VisLab](vis.cse.ust.hk
 
 
 <table width="100%">
-<thead>
-    <tr>
+<thead width="100%">
+    <tr align="center">
         <th>Modules</th>
         <th>Features</th>
         <th>Publications</th>
     </tr>
 </thead>
-<tbody>
+<tbody width="100%">
     <tr>
-        <th>Basic</th>
+        <th align="right">Basic</th>
         <td> <ul>
             <li>Course popularigy</li>
             <li>User demographics information</li>
@@ -94,7 +94,7 @@ VisMOOC is the first visual analytic system developed by [VisLab](vis.cse.ust.hk
         </td>
     </tr>
     <tr>
-        <th>Forum</th>
+        <th align="right">Forum</th>
         <td><ul>
             <li>Sentiment analysis</li>
             <li>Social network analysis</li>
@@ -102,7 +102,7 @@ VisMOOC is the first visual analytic system developed by [VisLab](vis.cse.ust.hk
         <td>[5, 6]</td>
     </tr>
     <tr>
-        <th>Prediction</th>
+        <th align="right">Prediction</th>
         <td><ul>
             <li>Dropout analysis</li>
             <li>To be continued</li>
