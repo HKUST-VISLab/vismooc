@@ -23,7 +23,7 @@ The VisMooc system consists of three parts, namely, `Data Server`, `Web Server`,
     </th>
     <th>
       <p>Frontend</p>
-      <a href="https://github.com/HKUST-VISLab/vismooc-frontend"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-frontend" height="20"></a>
+      <a href="https://github.com/HKUST-VISLab/vismooc-front-end"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-frontend" height="20"></a>
       <a href="https://github.com/HKUST-VISLab"><img src="https://img.shields.io/github/followers/HKUST-VISLab.svg?style=social&label=Follow" height="20"></a>
     </th>
   <tr>
