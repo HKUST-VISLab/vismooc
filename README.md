@@ -1,17 +1,65 @@
-# VicMOOC@0.5
+# VicMOOC@v0.5
 VisMOOC is the first visual analytic system developed by [VisLab](vis.cse.ust.hk), [HKUST](http://www.ust.hk/) for domain experts to analyze large-scale data of MOOCs. It provides course instructors and education analysts intuitive, interative and comprehensive analysis by integrating course videos, data visualization, and statistical analysis into one system. Multi-exploration techniques are offered for analysis at different levels. The data include clickstream data when students interact with course videos, grading data for assignments and exams, and forum data.
-
-(based on [vismooc-data-server@v0.4.0](https://github.com/HKUST-VISLab/vismooc-data-server/releases/tag/v0.4.0) and 
-[vismooc-web-server@v0.5.0](https://github.com/HKUST-VISLab/vismooc-web-server/releases/tag/v0.4.9)).
 
 ## VisMOOC Projects
 
-Features|Data Server | Web Server | Frontend
-:---|:---:|:---:|:---:
-Languages|[![Python version](https://img.shields.io/badge/python-3.5-blue.svg)](http://vis.cse.ust.hk/)|[![TypeScript](https://img.shields.io/badge/%3C%2F%3E-TypeScript-blue.svg)](https://github.com/ellerbrock/typescript-badges/)[![node](https://img.shields.io/node/v/wechaty.svg?maxAge=604800)](https://nodejs.org/)|[![ECMAScript](https://img.shields.io/badge/ECMAScript-6-yellow.svg)](http://vis.cse.ust.hk/)
-Repositories|<a href="https://github.com/HKUST-VISLab/vismooc-data-server"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-data-server" height="20"></a>|<a href="https://github.com/HKUST-VISLab/vismooc-web-server"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-web-server" height="20"></a>|<a href="https://github.com/HKUST-VISLab/vismooc-frontend"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-frontend" height="20"></a>
-Libraries|[PyMongo](https://github.com/mher/pymongo), [PyMySQL](https://github.com/PyMySQL/PyMySQL), [NLTK](http://www.nltk.org/)|[Koa](https://github.com/koajs/koa), [Mongoose](http://mongoosejs.com/)|[Vue.js](https://vuejs.org/), [D3.js](https://d3js.org/)
-Status|[![Build Status](https://travis-ci.com/HKUST-VISLab/vismooc-data-server.svg?token=iCzC3448sGQmSeYdNFro&branch=master)](https://travis-ci.com/HKUST-VISLab/vismooc-data-server)<br>[![Test Coverage](https://codeclimate.com/repos/592ab22319c972027a002465/badges/4036d9d8942155cedb5d/coverage.svg)](https://codeclimate.com/repos/592ab22319c972027a002465/coverage)|[![Build Status](https://travis-ci.com/HKUST-VISLab/vismooc-web-server.svg?token=iCzC3448sGQmSeYdNFro&branch=master)](https://travis-ci.com/HKUST-VISLab/vismooc-web-server)<br>[![Test Coverage](https://codeclimate.com/repos/592ab295839b1e02650008c6/badges/72c646f31634a87f8623/coverage.svg)](https://codeclimate.com/repos/592ab295839b1e02650008c6/coverage)<br>[![bitHound Overall Score](https://www.bithound.io/projects/badges/d9bc67c0-4374-11e7-a311-7b68633f7cb1/score.svg)](https://www.bithound.io/github/chenzhutian/vismooc-web-server)<br>[![bitHound Dependencies](https://www.bithound.io/projects/badges/d9bc67c0-4374-11e7-a311-7b68633f7cb1/dependencies.svg)](https://www.bithound.io/github/chenzhutian/vismooc-web-server/master/dependencies/npm)|[![Build Status](https://travis-ci.com/HKUST-VISLab/vismooc-front-end.svg?token=iCzC3448sGQmSeYdNFro&branch=master)](https://travis-ci.com/HKUST-VISLab/vismooc-front-end)<br>[![bitHound Overall Score](https://www.bithound.io/projects/badges/57872a00-4375-11e7-9c37-9b439aefd03b/score.svg)](https://www.bithound.io/github/chenzhutian/vismooc-front-end)<br>[![bitHound Dependencies](https://www.bithound.io/projects/badges/57872a00-4375-11e7-9c37-9b439aefd03b/dependencies.svg)](https://www.bithound.io/github/chenzhutian/vismooc-front-end/master/dependencies/npm)
+<table width="100%">
+  <tr>
+    <th>&nbsp;</th>
+    <th>
+      <p>Data Server</p>
+      <a href="https://github.com/HKUST-VISLab/vismooc-data-server"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-data-server" height="20"></a>
+    </th>
+    <th>
+      <p>Web Server</p>
+      <a href="https://github.com/HKUST-VISLab/vismooc-web-server"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-web-server" height="20"></a>
+    </th>
+    <th>
+      <p>Frontend</p>
+      <a href="https://github.com/HKUST-VISLab/vismooc-frontend"><img src="https://img.shields.io/github/stars/HKUST-VISLab/v-logger.svg?style=social&label=vismooc-frontend" height="20"></a>
+    </th>
+  <tr>
+  <tr>
+    <th align="right">Language</th>
+    <td align="center"><a href="https://www.python.org/" ><img src="https://img.shields.io/badge/python-3.5-blue.svg"></a></td>
+    <td align="center"><a href="https://www.typescriptlang.org/" ><img src="https://img.shields.io/badge/%3C%2F%3E-TypeScript-blue.svg"></a><a href="https://nodejs.org/en/" ><img src="https://img.shields.io/node/v/wechaty.svg?maxAge=604800"></a></td>
+    <td align="center"><a href="http://es6-features.org/" ><img src="https://img.shields.io/badge/ECMAScript-6-yellow.svg"></a></td>
+  </tr>
+  <tr>
+    <th align="right">Libraries</th>
+    <td align="center">
+      <a href="https://github.com/mher/pymongo">PyMongo</a>,
+      <a href="https://github.com/PyMySQL/PyMySQL">PyMySQL</a>,
+      <a href="http://www.nltk.org/">NLTK</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/koajs/koa">Koa</a>,
+      <a href="http://mongoosejs.com/">Mongoose</a>,
+    </td>
+    <td align="center">
+      <a href="https://vuejs.org/">Vue.js</a>,
+      <a href="https://d3js.org/">D3.js</a>,
+    </td>
+  </tr>
+  <tr>
+    <th align="right">Status</th>
+    <td align="center">
+        <a href="https://travis-ci.com/HKUST-VISLab/vismooc-data-server"><img src="https://travis-ci.com/HKUST-VISLab/vismooc-data-server.svg?token=iCzC3448sGQmSeYdNFro&branch=master" /></a><br>
+        <a href="https://codeclimate.com/repos/592ab22319c972027a002465/coverage"><img src="https://codeclimate.com/repos/592ab22319c972027a002465/badges/4036d9d8942155cedb5d/coverage.svg" /></a>
+    </td>
+    <td align="center">
+        <a href="https://travis-ci.com/HKUST-VISLab/vismooc-web-server"><img src="https://travis-ci.com/HKUST-VISLab/vismooc-web-server.svg?token=iCzC3448sGQmSeYdNFro&branch=master" /> </a><br>
+        <a href="https://codeclimate.com/repos/592ab295839b1e02650008c6/coverage"><img src="https://codeclimate.com/repos/592ab295839b1e02650008c6/badges/72c646f31634a87f8623/coverage.svg" /></a><br>
+        <a href="https://www.bithound.io/github/chenzhutian/vismooc-web-server"><img src="https://www.bithound.io/projects/badges/d9bc67c0-4374-11e7-a311-7b68633f7cb1/score.svg" /></a><br>
+        <a href="https://www.bithound.io/github/chenzhutian/vismooc-web-server/master/dependencies/npm"><img src="https://www.bithound.io/projects/badges/d9bc67c0-4374-11e7-a311-7b68633f7cb1/dependencies.svg" /></a>
+    </td>
+    <td align="center">
+        <a href="https://travis-ci.com/HKUST-VISLab/vismooc-front-end"><img src="https://travis-ci.com/HKUST-VISLab/vismooc-front-end.svg?token=iCzC3448sGQmSeYdNFro&branch=master"/></a><br>
+        <a href="https://www.bithound.io/github/chenzhutian/vismooc-front-end"><img src="https://www.bithound.io/projects/badges/57872a00-4375-11e7-9c37-9b439aefd03b/score.svg"/></a><br>
+        <a href="https://www.bithound.io/github/chenzhutian/vismooc-front-end/master/dependencies/npm"><img src="https://www.bithound.io/projects/badges/57872a00-4375-11e7-9c37-9b439aefd03b/dependencies.svg" /></a>
+    </td>
+  </tr>
+</table>
 
 
 ## VisMOOC Modules
@@ -56,9 +104,6 @@ OS: Debian 8 (amd64)
 
 ## Installation
 
-### Docker
 1. install Docker and Docker-compose
-
-### vismooc
-1. Build the images and run the container `sudo docker-compose up -d`
+2. Build the images and run the container `sudo docker-compose up -d`
 
