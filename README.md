@@ -52,14 +52,13 @@ The VisMooc system consists of three parts, namely, `Data Server`, `Web Server`,
   <tr>
     <th align="right">Status</th>
     <td align="center">
-        <a href="https://travis-ci.com/HKUST-VISLab/vismooc-data-server"><img src="https://travis-ci.com/HKUST-VISLab/vismooc-data-server.svg?token=iCzC3448sGQmSeYdNFro&branch=master" /></a><br>
+        <a href="https://travis-ci.org/HKUST-VISLab/vismooc-data-server"><img src="https://travis-ci.org/HKUST-VISLab/vismooc-data-server.svg?branch=master" /></a><br>
         <a href="https://codeclimate.com/repos/592ab22319c972027a002465/coverage"><img src="https://codeclimate.com/repos/592ab22319c972027a002465/badges/4036d9d8942155cedb5d/coverage.svg" /></a>
     </td>
     <td align="center">
-        <a href="https://travis-ci.com/HKUST-VISLab/vismooc-web-server"><img src="https://travis-ci.com/HKUST-VISLab/vismooc-web-server.svg?token=iCzC3448sGQmSeYdNFro&branch=master" /> </a><br>
+        <a href="https://travis-ci.org/HKUST-VISLab/vismooc-web-server"><img src="https://travis-ci.org/HKUST-VISLab/vismooc-web-server.svg?branch=master" /> </a><br>
         <a href="https://codeclimate.com/repos/592ab295839b1e02650008c6/coverage"><img src="https://codeclimate.com/repos/592ab295839b1e02650008c6/badges/72c646f31634a87f8623/coverage.svg" /></a><br>
-        <a href="https://www.bithound.io/github/chenzhutian/vismooc-web-server"><img src="https://www.bithound.io/projects/badges/d9bc67c0-4374-11e7-a311-7b68633f7cb1/score.svg" /></a><br>
-        <a href="https://www.bithound.io/github/chenzhutian/vismooc-web-server/master/dependencies/npm"><img src="https://www.bithound.io/projects/badges/d9bc67c0-4374-11e7-a311-7b68633f7cb1/dependencies.svg" /></a>
+        <a href="https://david-dm.org/HKUST-VISLab/vismooc-web-server"><img src="https://david-dm.org/HKUST-VISLab/vismooc-web-server/status.svg" /></a><br>
     </td>
     <td align="center">
         <a href="https://travis-ci.com/HKUST-VISLab/vismooc-front-end"><img src="https://travis-ci.com/HKUST-VISLab/vismooc-front-end.svg?token=iCzC3448sGQmSeYdNFro&branch=master"/></a><br>
