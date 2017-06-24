@@ -147,5 +147,6 @@ OS: Debian 8 (amd64)
 ## Installation
 
 1. install Docker and Docker-compose
-2. Build the images and run the container `sudo docker-compose up -d`
+2. Setting the `config.json` file under `config` folder
+3. Run `sudo docker-compose up -d` to build the images and run the container 
 

@@ -31,3 +31,4 @@ services:
     image: mongo:3.4
     volumes:
         - ./database/data:/data
+network_mode: "host"
