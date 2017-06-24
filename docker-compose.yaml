@@ -1,8 +1,7 @@
 version: '2'
 services:
   web:
-    build: ./web-server
-    image: vismooc-web-server:0.3.0
+    image: hkustvislab/vismooc-web-server:elearning-master
     ports:
       - "0.0.0.0:9999:9999"
     volumes:
@@ -16,10 +15,8 @@ services:
         max-size: "1g"
         max-file: "10"
   data:
-    build: ./data-server
-    image: vismooc-data-server:0.3.5
+    image: hkustvislab/vismooc-data-server:elearning-master
     volumes:
-        - ./data-server/dist:/dist
         - ./config:/config
     depends_on:
         - db
