@@ -146,6 +146,7 @@ OS: Debian 8 (amd64)
 ## Installation
 
 1. install Docker and Docker-compose
-2. Setting the `config.json` file under `config` folder
-3. Run `sudo docker-compose up -d` to build the images and run the container 
+2. Setting the `bind-address` of MySql to `172.17.0.1`.
+3. Setting the configuration under the folder `config`, then save the configuration as `config.json`.
+4. Build the images and run the container `sudo docker-compose up -d`
 

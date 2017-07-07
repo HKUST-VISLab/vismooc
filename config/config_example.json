@@ -1,8 +1,15 @@
 {
     "mongo": {
-        "host": "localhost",
-        "name": "test-vismooc-db",
-        "port": 27017
+        "host": "db", // don't modify this which is defined by the docker-compose file
+        "name": "test-vismooc-db", // can change to any database name you like
+        "port": 27017 // don't modify this which is defined by the docker-compose file
+    },
+    "sql": {
+        "host": "172.17.0.1", // don't modify this which is defined by the docker-compose file
+        "db": "the db name",  // can change to any database name you like
+        "port":3306,    // don't modify this which is defined by the docker-compose file
+        "user": "the username of the db", // the username of the sql database
+        "password":"the password of the db" // the password of the sql database
     },
     "data_server": {
         "third_party_keys": {
@@ -10,10 +17,10 @@
         }
     },
     "webServer": {
-        "port" : "9999", // the port of vismooc
+        "port" : "9999", // don't modify this which is defined by the docker-compose file
         "redis": {
-            "port": 6379,
-            "host": "localhost"
+            "port": 6379, // don't modify this which is defined by the docker-compose file
+            "host": "redis" // don't modify this which is defined by the docker-compose file
         }
     }
 }
