@@ -3,7 +3,7 @@ services:
   web:
     image: hkustvislab/vismooc-web-server:elearning-master
     ports:
-      - "0.0.0.0:9999:9999"
+      - "0.0.0.0:9998:9999"
     volumes:
       - ./config:/config
     depends_on:
