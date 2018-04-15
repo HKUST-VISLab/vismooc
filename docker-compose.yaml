@@ -1,9 +1,21 @@
 version: '2'
 services:
+  front:
+    image: hkustvislab/vismooc-front-end:elearning-master
+    ports:
+      - "0.0.0.0:8080:80"
+    depends_on:
+      - web
+    environment:
+      - WEB_SERVER_HOST=web
+      - WEB_SERVER_PORT=9999
+    logging:
+      driver: json-file
+      options:
+        max-size: "1g"
+        max-file: "10"
   web:
     image: hkustvislab/vismooc-web-server:elearning-master
-    ports:
-      - "0.0.0.0:9998:9999"
     volumes:
       - ./config:/config
     depends_on:
