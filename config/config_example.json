@@ -1,26 +1,27 @@
 {
-    "mongo": {
-        "host": "db", // don't modify this which is defined by the docker-compose file
-        "name": "test-vismooc-db", // can change to any database name you like
-        "port": 27017 // don't modify this which is defined by the docker-compose file
-    },
     "sql": {
-        "host": "172.17.0.1", // don't modify this which is defined by the docker-compose file
-        "db": "the db name",  // can change to any database name you like
-        "port":3306,    // don't modify this which is defined by the docker-compose file
-        "user": "the username of the db", // the username of the sql database
+        "host": "moocdb",
+        "db": "moocdb",
+        "port": 3306,
+        "user": "root",        
         "password":"the password of the db" // the password of the sql database
+    },
+    "mongo": {
+        "host": "db",
+        "name": "test-vismooc", // can change to any database name you like
+        "port": 27017
     },
     "data_server": {
         "third_party_keys": {
-            "Youtube_key": "" // youtube_key for fetch the video duration
-        }
+            "Youtube_key": ""
+        },
+        "logger_level": "debug"
     },
     "webServer": {
-        "port" : "9999", // don't modify this which is defined by the docker-compose file
+        "port" : "9999",
         "redis": {
-            "port": 6379, // don't modify this which is defined by the docker-compose file
-            "host": "redis" // don't modify this which is defined by the docker-compose file
+            "port": 6379,
+            "host": "redis"
         }
     }
 }
