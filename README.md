@@ -62,8 +62,8 @@ The VisMooc system consists of three parts, namely, `Data Server`, `Web Server`,
     </td>
     <td align="center">
         <a href="https://travis-ci.org/HKUST-VISLab/vismooc-front-end"><img src="https://travis-ci.org/HKUST-VISLab/vismooc-front-end.svg?branch=master"/></a><br>
-        <a href="https://www.bithound.io/github/chenzhutian/vismooc-front-end"><img src="https://www.bithound.io/projects/badges/57872a00-4375-11e7-9c37-9b439aefd03b/score.svg"/></a><br>
-        <a href="https://www.bithound.io/github/chenzhutian/vismooc-front-end/master/dependencies/npm"><img src="https://www.bithound.io/projects/badges/57872a00-4375-11e7-9c37-9b439aefd03b/dependencies.svg" /></a>
+        <!-- <a href="https://www.bithound.io/github/chenzhutian/vismooc-front-end"><img src="https://www.bithound.io/projects/badges/57872a00-4375-11e7-9c37-9b439aefd03b/score.svg"/></a><br>
+        <a href="https://www.bithound.io/github/chenzhutian/vismooc-front-end/master/dependencies/npm"><img src="https://www.bithound.io/projects/badges/57872a00-4375-11e7-9c37-9b439aefd03b/dependencies.svg" /></a> -->
     </td>
   </tr>
   </tbody>
